@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .video-240 {
+        width: 240px;
+        height: 135px;
+    }
+
+    .video-nav-min {
+        padding-top: 140px;
+        height: auto;
+        min-height: 140px;
+    }
+
+    .video-panel {
+        min-width: 240px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
